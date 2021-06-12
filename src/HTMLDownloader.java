@@ -40,7 +40,7 @@ public class HTMLDownloader {
                 out.write(buff, 0, count);
             }
 
-            System.out.println("\nHTML-страница скачена. Расположение: " +  file.getAbsolutePath());
+            System.out.println("\nHTML-страница загружена. Расположение: " +  file.getAbsolutePath());
 
         } catch (IOException e) {
 
